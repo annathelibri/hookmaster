@@ -1,0 +1,21 @@
+# GitIgnore for Jibril
+
+# IntelliJ
+/.idea/
+/.gradle/
+/build/
+/out/
+*.iml
+
+# Generated files
+/src/main/kotlin/jibril/exported/exported.kt
+/src/main/resources/jibril/assets/assets.zip
+
+# Runtime
+/logs/
+/db/
+/tests/
+/config.json
+/config.json.bkp
+*.log
+hookmaster.properties
